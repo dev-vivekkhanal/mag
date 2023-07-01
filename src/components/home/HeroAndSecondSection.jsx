@@ -60,7 +60,7 @@ const HeroAndSecondSection = () => {
               They said it’s ethereal, we say it’s eternal
             </h1>
 
-            <div className="flex flex-col lg:flex-row justify-between items-center gap-10 text-[#4F4F4F] text-lg md:text-2xl pb-20">
+            <div className="flex flex-col xl:flex-row justify-between items-center gap-10 text-[#4F4F4F] text-lg md:text-xl pb-20">
               <p>
                 Lorem ipsum dolor sit amet, consec tetur adipi scing elit. Sed
                 lacinia mollis magna eu condi mentum. Proin justo diam,

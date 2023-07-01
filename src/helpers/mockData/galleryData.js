@@ -9,43 +9,71 @@ import galleryImage8 from "../../assets/home/8.svg";
 
 export const galleryData = [
   {
-    type: "small",
     src: galleryImage2,
     alt: "galleryImage3",
   },
   {
-    type: "large",
     src: galleryImage3,
     alt: "galleryImage2",
   },
+
   {
-    type: "large",
-    src: galleryImage6,
-    alt: "galleryImage3",
-  },
-  {
-    type: "small",
-    src: galleryImage7,
-    alt: "galleryImage4",
-  },
-  {
-    type: "small",
     src: galleryImage2,
     alt: "galleryImage5",
   },
   {
-    type: "large",
     src: galleryImage3,
     alt: "galleryImage6",
   },
   {
-    type: "large",
     src: galleryImage6,
     alt: "galleryImage7",
   },
   {
-    type: "small",
     src: galleryImage7,
     alt: "galleryImage8",
+  },
+
+  {
+    src: galleryImage6,
+    alt: "galleryImage3",
+  },
+  {
+    src: galleryImage7,
+    alt: "galleryImage4",
+  },
+  {
+    src: galleryImage2,
+    alt: "galleryImage3",
+  },
+  {
+    src: galleryImage3,
+    alt: "galleryImage2",
+  },
+
+  {
+    src: galleryImage2,
+    alt: "galleryImage5",
+  },
+  {
+    src: galleryImage3,
+    alt: "galleryImage6",
+  },
+  {
+    src: galleryImage6,
+    alt: "galleryImage7",
+  },
+  {
+    src: galleryImage7,
+    alt: "galleryImage8",
+  },
+
+  {
+    src: galleryImage6,
+    alt: "galleryImage3",
+  },
+  {
+    src: galleryImage7,
+    alt: "galleryImage4",
   },
 ];
