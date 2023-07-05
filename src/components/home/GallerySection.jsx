@@ -5,7 +5,7 @@ import React from "react";
 
 const GallerySection = () => {
   return (
-    <section className=" 0">
+    <section className=" mb-5">
       <p className="font-lora font-medium  text-xl md:text-3xl w-[60%] mx-auto text-center py-32">
         We create brand action. From momentsto movements, our actions engageyour
         audience and drive your business.

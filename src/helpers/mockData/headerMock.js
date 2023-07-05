@@ -8,11 +8,16 @@ export const headerData = [
     link: "/about",
   },
   {
-    title: "Page",
-    link: "/page",
+    title: "Services",
+    link: "/services",
+  },
+
+  {
+    title: "Journals",
+    link: "/journals",
   },
   {
-    title: "Contact",
-    link: "/contact",
+    title: "Gallery",
+    link: "/gallery",
   },
 ];

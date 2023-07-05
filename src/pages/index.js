@@ -1,20 +1,21 @@
 import Footer from "@/components/global/Footer";
 import Header from "@/components/global/Header";
+import FirstSection from "@/components/home/FirstSection";
 import GallerySection from "@/components/home/GallerySection";
-import HeroAndSecondSection from "@/components/home/HeroAndSecondSection";
+import SecondSection from "@/components/home/SecondSection";
 import ThirdSection from "@/components/home/ThirdSection";
+import Layout from "@/layouts/layout";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="">
-      <Header />
-
-      <HeroAndSecondSection />
-      <ThirdSection />
-      <GallerySection />
-
-      <Footer />
-    </main>
+    <Layout>
+      <div>
+        <FirstSection />
+        <SecondSection />
+        <ThirdSection />
+        <GallerySection />
+      </div>
+    </Layout>
   );
 }
