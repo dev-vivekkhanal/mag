@@ -8,11 +8,20 @@ import { headerData } from "@/helpers/mockData/headerMock";
 import logo from "../../assets/global/company_logo.svg";
 import search_icon from "../../assets/global/search.svg";
 import menu_icon from "../../assets/global/menu.svg";
+import { useEffect } from "react";
 
 const Header = () => {
   const location = useRouter();
+  const whiteLinks = ["/", "/services"];
 
-  console.log(location);
+  useEffect(() => {
+    console.log("location:", location?.route);
+    console.log(
+      "whiteLinks?.includes(location?.route):",
+      whiteLinks?.includes(location?.route)
+    );
+  }, [location]);
+
   return (
     <header className="pt-5 z-10  absolute top-0  left-0 right-0 ">
       <div className="flex justify-between w-[90%] mx-auto py-5  items-center">
@@ -32,7 +41,7 @@ const Header = () => {
                 className={` ${
                   location?.route === header_links.link
                     ? "border-b-accent_color text-accent_color"
-                    : location?.route === "/"
+                    : whiteLinks?.includes(location?.route)
                     ? "border-b-transparent text-[#C7C7C7]"
                     : "border-b-transparent text-[#4F4F4F]"
                 } p-2  border-b-2 border-b-accent_color `}

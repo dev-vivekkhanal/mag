@@ -2,6 +2,8 @@ import Banner from "@/components/global/Banner";
 import Layout from "@/layouts/layout";
 import React from "react";
 import servicesBanner from "../../assets/services/servicesBanner.svg";
+import FirstSection from "@/components/services/FirstSection";
+import SecondSection from "@/components/services/SecondSection";
 
 const Services = () => {
   return (
@@ -9,7 +11,8 @@ const Services = () => {
       <div>
         <Banner pageName="Our Services" img={servicesBanner} />
 
-        <div className="min-h-screen"></div>
+        <FirstSection />
+        <SecondSection />
       </div>
     </Layout>
   );

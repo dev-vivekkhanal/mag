@@ -6,7 +6,7 @@ const Banner = (props) => {
       style={{ backgroundImage: `url(${props?.img?.src})` }}
       className="w-full bg-bottom bg-cover"
     >
-      <h1 className="text-5xl text-center py-32 pb-44 pt-64 font-semibold">
+      <h1 className="text-5xl text-center py-32 pb-44 pt-64 font-semibold font-playfair">
         {props?.pageName}
       </h1>
     </div>

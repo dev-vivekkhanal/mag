@@ -7,46 +7,13 @@ import l_img from "../../assets/home/img1.svg";
 const SecondSection = () => {
   return (
     <div className={``}>
-      {/* hero section */}
-      {/* <section className="relative min-h-[85vh] flex flex-col justify-between  ">
-        <div className="py-16 pb-32 text-center w-[80%] mx-auto">
-          <h1 className="font-lora  text-xl md:text-3xl font-medium mb-10">
-            We are set for the new adventure of life{" "}
-          </h1>
-          <p className="text-[#4F4F4F] text-lg md:text-2xl pb-20 ">
-            Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit
-            tellus, luctus nec ullam corper mattis, pulvinar dapibus leo.
-          </p>
-          <Link
-            href="/contact"
-            className="bg-accent_color px-16 py-4 text-white font-lora text-xl md:text-3xl "
-          >
-            Contact Us
-          </Link>
-        </div>
-
-        <div className="">
-          <Image
-            src={hero}
-            alt="hero img"
-            className="mx-auto w-[90%] md:w-[80%] lg:w-[70%] xl:w-[60%]"
-          />
-        </div>
-
-        <Image
-          src={abstract_bg}
-          alt="tribal_art"
-          className="absolute top-0 -z-20 left-0 right-0 w-full "
-        />
-      </section> */}
-
       {/* 2nd section */}
       <section className="flex flex-col lg:flex-row  items-center justify-between py-32 gap-10 min-h-screen ">
-        <div className="flex-1">
+        <div className="flex-1 w-full">
           <Image
             src={l_img}
             alt="left img"
-            className="w-full md:rounded-r-[5rem]"
+            className="w-full lg:rounded-r-[5rem]"
           />
         </div>
 

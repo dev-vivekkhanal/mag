@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+// animation
+import { motion } from "framer-motion";
 // carousel
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
@@ -11,7 +13,7 @@ import Link from "next/link";
 
 const FirstSection = () => {
   const [count, setCount] = useState(0);
-  const bgArr = [bg1, bg2, bg3];
+  const bgArr = [bg1.src, bg2.src, bg3.src];
 
   useEffect(() => {
     //Implementing the setInterval method
@@ -26,11 +28,36 @@ const FirstSection = () => {
   }, [count]);
 
   return (
-    <div className="h-[100vh] relative font-lora text-center text-white">
+    <div className="min-h-[100vh] relative font-lora text-center text-white">
       <div
-        style={{ backgroundImage: `url(${bgArr[count].src})` }}
+        style={{ backgroundImage: `url(${bgArr[count]})` }}
         className={`absolute inset-0 z-[-10]   bg-center bg-cover duration-1000 transition-all `}
       ></div>
+
+      {/* {bgArr?.map((bg, index) => {
+        return (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.3 }}
+            className={` ${
+              index === count
+                ? "  duration-1000 ease-in transition-all"
+                : "hidden duration-1000 ease-out transition-all"
+            } `}
+          >
+            <Image
+              key={index}
+              fill
+              className={`  object-center object-cover pointer-events-none z-[-10]  transition-all`}
+              src={bg}
+              alt="bg image"
+              priority
+            />
+          </motion.div>
+        );
+      })} */}
+
       <div className="h-screen flex flex-col justify-around py-10">
         <div>
           <h1 className="text-3xl font-medium mb-10">

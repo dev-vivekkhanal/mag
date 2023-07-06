@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-accent_color  text-white font-poppins">
       <div className="flex flex-col lg:flex-row gap-5 items-start w-[80%] mx-auto py-20 ">
-        <div className="flex gap-5 justify-between flex-1  w-full ">
+        <div className="flex flex-col sm:flex-row gap-5 justify-between flex-1  w-full ">
           {/* quick links */}
           <div className="flex-1">
             <h1 className="text-2xl font-semibold font-lora mb-10">
