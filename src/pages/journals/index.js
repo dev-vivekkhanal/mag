@@ -1,7 +1,7 @@
 import Banner from "@/components/global/Banner";
 import Layout from "@/layouts/layout";
 import React from "react";
-import journalBanner from "../../assets/journal/journalBanner.svg";
+import journalBanner from "../../assets/journal/journalBanner.webp";
 import UnderContruction from "@/components/global/UnderContruction";
 
 const Journals = () => {

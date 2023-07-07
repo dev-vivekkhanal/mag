@@ -1,6 +1,6 @@
 import React from "react";
-import left_img from "../../assets/home/left-img.svg";
-import right_img from "../../assets/home/right-img.svg";
+import left_img from "../../assets/home/left-img.webp";
+import right_img from "../../assets/home/right-img.webp";
 import Image from "next/image";
 import Link from "next/link";
 

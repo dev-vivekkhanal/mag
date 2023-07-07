@@ -1,11 +1,8 @@
-import galleryImage1 from "../../assets/home/1.svg";
-import galleryImage2 from "../../assets/home/2.svg";
-import galleryImage3 from "../../assets/home/3.svg";
-import galleryImage4 from "../../assets/home/4.svg";
-import galleryImage5 from "../../assets/home/5.svg";
-import galleryImage6 from "../../assets/home/6.svg";
-import galleryImage7 from "../../assets/home/7.svg";
-import galleryImage8 from "../../assets/home/8.svg";
+import galleryImage2 from "../../assets/home/2.webp";
+import galleryImage3 from "../../assets/home/3.webp";
+
+import galleryImage6 from "../../assets/home/6.webp";
+import galleryImage7 from "../../assets/home/7.webp";
 
 export const galleryData = [
   {

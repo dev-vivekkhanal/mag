@@ -1,8 +1,6 @@
 import Image from "next/image";
-import abstract_bg from "../../assets/home/hero_bg.svg";
-import hero from "../../assets/home/hero_img.png";
 import Link from "next/link";
-import l_img from "../../assets/home/img1.svg";
+import l_img from "../../assets/home/img1.webp";
 
 const SecondSection = () => {
   return (

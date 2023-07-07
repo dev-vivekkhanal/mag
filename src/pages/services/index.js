@@ -1,7 +1,7 @@
 import Banner from "@/components/global/Banner";
 import Layout from "@/layouts/layout";
 import React from "react";
-import servicesBanner from "../../assets/services/servicesBanner.svg";
+import servicesBanner from "../../assets/services/servicesBanner.webp";
 import FirstSection from "@/components/services/FirstSection";
 import SecondSection from "@/components/services/SecondSection";
 

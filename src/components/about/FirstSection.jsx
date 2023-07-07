@@ -1,11 +1,9 @@
 import React from "react";
-import bg_lines from "../../assets/about/bg-lines.svg";
-import left_img from "../../assets/about/left_img.svg";
-import right_img from "../../assets/about/right_img.svg";
+import left_img from "../../assets/about/left_img.webp";
+import right_img from "../../assets/about/right_img.webp";
 import Image from "next/image";
 
 const FirstSection = () => {
-  console.log(bg_lines?.src);
   return (
     <section className="  font-playfair text-center">
       <div

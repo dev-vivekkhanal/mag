@@ -1,5 +1,5 @@
 import React from "react";
-import grid from "../../assets/about/grid.svg";
+import grid from "../../assets/about/grid.webp";
 
 import Image from "next/image";
 

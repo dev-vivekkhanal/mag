@@ -1,6 +1,6 @@
 import Layout from "@/layouts/layout";
 import React from "react";
-import aboutBanner from "../../assets/about/aboutBanner.svg";
+import aboutBanner from "../../assets/about/aboutBanner.webp";
 
 import Banner from "@/components/global/Banner";
 import SecondSection from "@/components/about/SecondSection";

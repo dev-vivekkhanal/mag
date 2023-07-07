@@ -3,7 +3,7 @@ import React from "react";
 const SecondSection = () => {
   return (
     <section className="py-32 font-playfair">
-      <div className="flex flex-col lg:flex-row gap-10 w-[90%] md:w-[80%] mx-auto">
+      <div className="flex flex-col lg:flex-row gap-10 w-[90%] md:w-[80%] mx-auto grid-flow-dense">
         <div className="flex-1 flex flex-col justify-between gap-5">
           <div>
             <h2 className="  text-xl md:text-3xl font-medium mb-5 text-accent_color ">
