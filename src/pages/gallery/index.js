@@ -13,7 +13,7 @@ const Gallery = () => {
         <div className="flex flex-wrap gap-5 my-5">
           {galleryPageData?.map((data, index) => {
             return (
-              <div className="flex-auto  ">
+              <div key={index} className="flex-auto  ">
                 <Image
                   src={data?.img}
                   alt={"img" + index}
