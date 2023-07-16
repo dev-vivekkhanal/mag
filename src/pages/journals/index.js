@@ -2,15 +2,16 @@ import Banner from "@/components/global/Banner";
 import Layout from "@/layouts/layout";
 import React from "react";
 import journalBanner from "../../assets/journal/journalBanner.webp";
-import UnderContruction from "@/components/global/UnderContruction";
+import FirstSection from "@/components/journals/FirstSection";
+import SecondSection from "@/components/journals/SecondSection";
 
 const Journals = () => {
   return (
     <Layout>
       <div>
         <Banner pageName="Journals" img={journalBanner} />
-
-        <UnderContruction />
+        <FirstSection/>
+        <SecondSection/>
       </div>
     </Layout>
   );
