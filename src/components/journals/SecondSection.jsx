@@ -1,5 +1,6 @@
 import { mainEvents } from "@/helpers/mockData/journalData";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const SecondSection = () => {
@@ -8,11 +9,13 @@ const SecondSection = () => {
       {mainEvents?.map((data) => {
         return (
           <div key={data?.id} className="flex-auto  ">
-            <Image
-              src={data?.image}
-              alt={data?.title}
-              className=" h-full object-cover  w-full"
-            />
+            <Link href={"/journals/" + data?.id}>
+              <Image
+                src={data?.image}
+                alt={data?.title}
+                className=" h-full object-cover  w-full"
+              />
+            </Link>
           </div>
         );
       })}

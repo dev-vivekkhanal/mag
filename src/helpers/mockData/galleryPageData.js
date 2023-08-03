@@ -26,7 +26,8 @@ export const galleryPageData = [
   },
   {
     img: img2,
-    type: "wide",
+    link: "MppKFZTQGIU",
+    type: "youtube",
   },
 
   {

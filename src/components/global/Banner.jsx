@@ -3,7 +3,7 @@ import React from "react";
 
 const Banner = (props) => {
   return (
-    <div className="w-full h-[] relative">
+    <div className="w-full  relative">
       <Image
         fill
         className={`  object-center object-cover pointer-events-none z-[-10]  transition-all duration-1000`}
