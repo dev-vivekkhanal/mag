@@ -9,8 +9,7 @@ import Image from "next/image";
 import YouTube from "react-youtube";
 
 
-const journalID = () => {
-  const router = useRouter();
+const JournalID = () => {
 
 
   const opts = {
@@ -52,4 +51,4 @@ const journalID = () => {
 
 };
 
-export default journalID;
+export default JournalID;
