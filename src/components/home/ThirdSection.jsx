@@ -8,7 +8,11 @@ const ThirdSection = () => {
   return (
     <section className="flex flex-col lg:flex-row justify-between gap-10 py-20">
       <div className="flex-1">
-        <Image src={left_img} alt="left_img" className="w-full" />
+        <Image
+          src={left_img}
+          alt="left_img"
+          className="w-full lg:rounded-tr-[5rem]"
+        />
       </div>
 
       <div className="flex-1 flex flex-col gap-10 justify-between items-center pt-10">
@@ -31,7 +35,11 @@ const ThirdSection = () => {
         </Link>
       </div>
       <div className="flex-1">
-        <Image src={right_img} alt="right_img" className="w-full" />
+        <Image
+          src={right_img}
+          alt="right_img"
+          className="w-full lg:rounded-tl-[5rem]"
+        />
       </div>
     </section>
   );

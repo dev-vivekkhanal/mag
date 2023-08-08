@@ -40,11 +40,13 @@ const Header = () => {
                 key={header_links.title}
                 className={` ${
                   location?.route === header_links.link
-                    ? "border-b-accent_color text-accent_color"
-                    : whiteLinks?.includes(location?.route)
-                    ? "border-b-transparent text-[#C7C7C7]"
+                    ? `border-b-accent_color ${
+                        whiteLinks?.includes(location?.route)
+                          ? "border-b-[#C7C7C7] text-[#C7C7C7]"
+                          : "text-accent_color"
+                      } `
                     : "border-b-transparent text-[#4F4F4F]"
-                } p-2  border-b-2 border-b-accent_color `}
+                }  p-2  border-b-2 border-b-accent_color `}
               >
                 <span className=" font-poppins text-xl">
                   {header_links.title}
@@ -55,10 +57,6 @@ const Header = () => {
         </nav>
         {/* search and menu */}
         <div className=" flex-1 flex items-center justify-end gap-5">
-          {/* search */}
-          <div>
-            <Image src={search_icon} alt="search" className="" />
-          </div>
           {/* menu */}
           <div className="md:hidden">
             <Image src={menu_icon} alt="menu" className="w-10" />

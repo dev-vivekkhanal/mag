@@ -5,12 +5,12 @@ import React from "react";
 
 const GallerySection = () => {
   return (
-    <section className=" mb-5">
+    <section className="">
       <p className="font-lora font-medium  text-xl md:text-3xl w-[60%] mx-auto text-center py-32">
         We create brand action. From momentsto movements, our actions engageyour
         audience and drive your business.
       </p>
-      <div className="grid responsive-grid  w-full  place-items-end   ">
+      <div className="grid responsive-grid gap-5  w-full  p-5  ">
         {galleryData?.map((galleryImages, i) => {
           return (
             <div key={i}>
