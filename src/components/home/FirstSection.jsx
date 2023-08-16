@@ -5,21 +5,25 @@ import { AnimatePresence, motion } from "framer-motion";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 // assets
-import bg1 from "../../assets/home/bg1.webp";
-import bg2 from "../../assets/home/bg2.webp";
-import bg3 from "../../assets/home/bg3.webp";
+import bg1 from "../../assets/home/bg-1.svg";
+import bg2 from "../../assets/home/bg-2.svg";
+import bg3 from "../../assets/home/bg-3.svg";
+import bg4 from "../../assets/home/bg-4.svg";
 import Image from "next/image";
 import Link from "next/link";
 
 const FirstSection = () => {
   const [count, setCount] = useState(0);
-  const [bgArr] = useState([bg1.src, bg2.src, bg3.src]);
+  const [bgArr] = useState([bg1.src, bg2.src, bg3.src, bg4.src]);
   const [items, setItems] = useState([]);
 
   useLayoutEffect(() => {
     const mapped = bgArr?.map((bgData, bgIndex) => {
       return (
-        <div key={bgIndex} className="h-screen w-full relative">
+        <div
+          key={bgIndex}
+          className="h-screen w-full relative bg-black bg-opacity-30"
+        >
           <Image
             fill
             className={`  object-center object-cover pointer-events-none z-[-10]  transition-all duration-1000`}

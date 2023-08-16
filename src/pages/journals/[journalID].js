@@ -23,7 +23,7 @@ const JournalID = () => {
       <BigBanner pageName="Our Never Ending Story" img={bigJournalBanner}/>
       <FirstSection/>
 
-      <div className="flex flex-wrap gap-5 my-5">
+      <div className="flex flex-wrap gap-5 ">
           {galleryPageData?.map((data, index) => {
             if(index < 4)
             return (
