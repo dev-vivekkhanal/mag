@@ -17,21 +17,22 @@ const ThirdSection = () => {
 
       <div className="flex-1 flex flex-col gap-10 justify-between items-center pt-10">
         <h1 className="font-lora  text-xl md:text-3xl font-medium  w-[80%] mx-auto text-center">
-          They said it’s ethereal
+          Ram & Janani
         </h1>
 
         <p className="text-[#4F4F4F] text-lg md:text-xl w-[80%] mx-auto text-center">
-          Lorem ipsum dolor sit amet, consec tetur adipi scing elit. Sed lacinia
-          mollis magna eu condi mentum. Proin justo diam, tristique vitae
-          viverra eu, facilisis a ex. Aliquam pharetra mauris ut sem.
+          The phrase 'together forever' feels just right, as it encapsulated not
+          only our cherished memories but also the blend of scenic vistas and
+          cultural motifs that enhanced the charm of our beautifully crafted
+          day.
         </p>
 
         {/* CTA */}
         <Link
-          href="/about"
+          href="/journals"
           className="bg-accent_color px-16 py-4 text-white font-lora text-xl md:text-3xl  inline-block"
         >
-          Services
+          Journals
         </Link>
       </div>
       <div className="flex-1">

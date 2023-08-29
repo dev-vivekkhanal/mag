@@ -30,119 +30,162 @@ import galleryImage28 from "../../assets/home/28c.png";
 export const galleryData = [
   {
     src: galleryImage1,
+    type: "image",
     alt: "galleryImage1",
   },
   {
     src: galleryImage2,
+    type: "image",
     alt: "galleryImage2",
   },
 
   {
     src: galleryImage3,
+    type: "image",
     alt: "galleryImage3",
   },
   {
     src: galleryImage4,
+    type: "image",
     alt: "galleryImage4",
   },
   {
     src: galleryImage5,
+    type: "image",
     alt: "galleryImage5",
   },
   {
     src: galleryImage6,
+    type: "image",
     alt: "galleryImage6",
   },
 
   {
     src: galleryImage7,
+    type: "image",
     alt: "galleryImage7",
   },
   {
     src: galleryImage8,
+    type: "image",
     alt: "galleryImage8",
   },
   {
     src: galleryImage9,
+    type: "image",
     alt: "galleryImage9",
   },
   {
+    text: "lorem ipsum",
+    type: "text",
+  },
+  {
     src: galleryImage10,
+    type: "image",
     alt: "galleryImage10",
   },
 
   {
     src: galleryImage11,
+    type: "image",
     alt: "galleryImage11",
   },
   {
     src: galleryImage12,
+    type: "image",
     alt: "galleryImage12",
   },
+
   {
     src: galleryImage13,
+    type: "image",
     alt: "galleryImage13",
   },
   {
     src: galleryImage14,
+    type: "image",
     alt: "galleryImage14",
   },
 
   {
+    text: "lorem ipsum",
+    type: "text",
+  },
+
+  {
     src: galleryImage15,
+    type: "image",
     alt: "galleryImage15",
   },
   {
     src: galleryImage16,
+    type: "image",
     alt: "galleryImage16",
   },
 
   {
     src: galleryImage17,
+    type: "image",
     alt: "galleryImage17",
   },
   {
     src: galleryImage18,
+    type: "image",
     alt: "galleryImage18",
   },
+
   {
     src: galleryImage19,
+    type: "image",
     alt: "galleryImage19",
   },
   {
     src: galleryImage20,
+    type: "image",
     alt: "galleryImage20",
   },
   {
     src: galleryImage21,
+    type: "image",
     alt: "galleryImage21",
   },
   {
     src: galleryImage22,
+    type: "image",
     alt: "galleryImage22",
   },
   {
     src: galleryImage23,
+    type: "image",
     alt: "galleryImage23",
   },
   {
     src: galleryImage24,
+    type: "image",
     alt: "galleryImage24",
   },
   {
     src: galleryImage25,
+    type: "image",
     alt: "galleryImage25",
   },
   {
+    text: "lorem ipsum",
+    type: "text",
+  },
+  {
     src: galleryImage26,
+    type: "image",
     alt: "galleryImage26",
   },
   {
     src: galleryImage27,
+    type: "image",
     alt: "galleryImage27",
   },
-  {
-    src: galleryImage28,
-    alt: "galleryImage28",
-  },
+  // {
+  //   src: galleryImage28,
+  //   type: "image",
+  //   alt: "galleryImage28",
+  // },
 ];

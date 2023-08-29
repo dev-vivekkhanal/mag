@@ -44,11 +44,10 @@ const FirstSection = () => {
         <div className="h-screen flex flex-col justify-around py-10 pt-32">
           <div>
             <h1 className="text-3xl font-medium mb-10">
-              We are set for the new adventure of life
+              Capturing You, As You Truly Are
             </h1>
             <h2 className="text-[#C7C7C7] text-lg ">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Laboriosam dolore illo maxime, veniam eius magnam nobis commodi.
+              Embracing the Beauty of Small Details and Deep Emotions
             </h2>
           </div>
 

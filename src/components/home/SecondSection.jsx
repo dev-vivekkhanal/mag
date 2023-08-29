@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import l_img from "../../assets/home/img1.webp";
+import l_img from "../../assets/home/img1.png";
 
 const SecondSection = () => {
   return (
@@ -21,21 +21,17 @@ const SecondSection = () => {
               Our Story
             </h2>
             <h1 className="font-lora  text-xl md:text-3xl font-medium mb-10">
-              They said it’s ethereal, we say it’s eternal
+              Capturing the Elegance in Every Detail and the Depth in Every
+              Emotion
             </h1>
 
             <div className="flex flex-col xl:flex-row justify-between items-center gap-10 text-[#4F4F4F] text-lg md:text-xl pb-20">
               <p>
-                Lorem ipsum dolor sit amet, consec tetur adipi scing elit. Sed
-                lacinia mollis magna eu condi mentum. Proin justo diam,
-                tristique vitae viverra eu, facilisis a ex. Aliquam pharetra
-                mauris ut sem.
-              </p>
-
-              <p>
-                Aliquam pharetra mauris ut sem pretium. Proin iaculis velit ac
-                diam feugiat, quis ultrices sem tristique. Donec pellentesque
-                eros quis pharetra sollici tudin.
+                At our production house, we transform ideas into visual tales
+                that captivate. Collaborating closely with you, we craft
+                experiences that resonate. Each frame is meticulously designed
+                to convey your message with impact. Step into our world, where
+                stories come alive and creativity knows no bounds.
               </p>
             </div>
 
