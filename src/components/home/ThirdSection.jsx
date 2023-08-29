@@ -21,10 +21,10 @@ const ThirdSection = () => {
         </h1>
 
         <p className="text-[#4F4F4F] text-lg md:text-xl w-[80%] mx-auto text-center">
-          The phrase 'together forever' feels just right, as it encapsulated not
-          only our cherished memories but also the blend of scenic vistas and
-          cultural motifs that enhanced the charm of our beautifully crafted
-          day.
+          The phrase &apos;together forever`&apos; feels just right, as it
+          encapsulated not only our cherished memories but also the blend of
+          scenic vistas and cultural motifs that enhanced the charm of our
+          beautifully crafted day.
         </p>
 
         {/* CTA */}
