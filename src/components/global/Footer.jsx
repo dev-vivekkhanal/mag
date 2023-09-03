@@ -16,13 +16,13 @@ const Footer = () => {
         </p>
         <div className="flex gap-5 items-center justify-center">
           {/* <a href="/"> */}
-          <Image src={twitter} alt="twitter logo" className="" />
+          <Image src={twitter} alt="twitter" className="" />
           {/* </a> */}
           {/* <a href="/"> */}
-          <Image src={fb} alt="facebook logo" className="" />
+          <Image src={fb} alt="facebook" className="" />
           {/* </a> */}
           {/* <a href="/"> */}
-          <Image src={insta} alt="instagram logo" className="" />
+          <Image src={insta} alt="instagram" className="" />
           {/* </a> */}
         </div>
       </div>
