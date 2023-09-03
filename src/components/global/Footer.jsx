@@ -15,15 +15,15 @@ const Footer = () => {
           Bengaluru, Karnataka 560078
         </p>
         <div className="flex gap-5 items-center justify-center">
-          <a href="/">
-            <Image src={twitter} alt="twitter logo" className="" />
-          </a>
-          <a href="/">
-            <Image src={fb} alt="facebook logo" className="" />
-          </a>
-          <a href="/">
-            <Image src={insta} alt="instagram logo" className="" />
-          </a>
+          {/* <a href="/"> */}
+          <Image src={twitter} alt="twitter logo" className="" />
+          {/* </a> */}
+          {/* <a href="/"> */}
+          <Image src={fb} alt="facebook logo" className="" />
+          {/* </a> */}
+          {/* <a href="/"> */}
+          <Image src={insta} alt="instagram logo" className="" />
+          {/* </a> */}
         </div>
       </div>
 
