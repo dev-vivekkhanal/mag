@@ -26,7 +26,7 @@ const FirstSection = () => {
               to grand occasions, we refine them into lasting treasures. Our
               creative ventures adhere to global excellence standards, etching
               eternal memories with experience and passion. More than a company,
-              we're a family that seeks meaning in every shot, focusing on
+              we&apos;re a family that seeks meaning in every shot, focusing on
               elegance, class, and beauty. Framing your precious moments is our
               passion, from outdoors to weddings, fashion to family. Our hands
               create, our hearts dream. Let our work and passion speak volumes.
