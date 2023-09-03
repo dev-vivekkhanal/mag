@@ -6,7 +6,7 @@ const SecondSection = () => {
   return (
     <div className={``}>
       {/* 2nd section */}
-      <section className="flex flex-col lg:flex-row  items-center justify-between py-32 gap-10 min-h-screen ">
+      <section className="flex flex-col lg:flex-row  items-center justify-between pt-32 gap-10 min-h-screen ">
         <div className="flex-1 w-full">
           <Image
             src={l_img}

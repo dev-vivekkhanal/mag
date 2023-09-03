@@ -6,11 +6,6 @@ import React from "react";
 const GallerySection = () => {
   return (
     <section className="">
-      <p className="font-lora font-medium  text-xl md:text-3xl w-[60%] mx-auto text-center py-32">
-        We initiate brand action. Our efforts transition from single moments to
-        impactful movements, effectively engaging your audience and propelling
-        your business forward
-      </p>
       <div className="grid responsive-grid gap-5  w-full  p-5  ">
         {galleryData?.map((data, i) => {
           return (
