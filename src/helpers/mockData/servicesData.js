@@ -1,37 +1,33 @@
+
+
 export const typesOfServices = [
   {
     id: 1,
-    title: "Wedding Event",
-    desc: "Lorem ipsum dolor sit amet, consec tetur adipi scing elit. Sed lacinia mollis magna eu condi mentum. Proin justo diam, tristique vitae viverra eu, facilisis a ex. Aliquam.",
+    title: "Weddings",
+    desc: "Tailoring unforgettable weddings with meticulous care, capturing your love story in every detail.",
   },
 
   {
     id: 2,
-    title: "Birthday Event",
-    desc: "Lorem ipsum dolor sit amet, consec tetur adipi scing elit. Sed lacinia mollis magna eu condi mentum. Proin justo diam, tristique vitae viverra eu, facilisis a ex. Aliquam.",
+    title: "Festivals and Fairs",
+    desc: "With a passion for celebration, we bring festivals and fairs to life, tailoring each component to create a captivating and joyful atmosphere.",
   },
 
   {
     id: 3,
     title: "Corporate Events",
-    desc: "Lorem ipsum dolor sit amet, consec tetur adipi scing elit. Sed lacinia mollis magna eu condi mentum. Proin justo diam, tristique vitae viverra eu, facilisis a ex. Aliquam.",
+    desc: "Elevate your corporate gatherings with our expert touch, ensuring every detail reflects your professionalism and distinct corporate identity.",
   },
 
   {
     id: 4,
-    title: "Social Events",
-    desc: "Lorem ipsum dolor sit amet, consec tetur adipi scing elit. Sed lacinia mollis magna eu condi mentum. Proin justo diam, tristique vitae viverra eu, facilisis a ex. Aliquam.",
+    title: "Birthdays",
+    desc: "Crafting memorable birthday celebrations with meticulous attention, customizing every detail to honor your individual journey.",
   },
 
   {
     id: 5,
     title: "Non-Profit Events",
-    desc: "Lorem ipsum dolor sit amet, consec tetur adipi scing elit. Sed lacinia mollis magna eu condi mentum. Proin justo diam, tristique vitae viverra eu, facilisis a ex. Aliquam.",
-  },
-
-  {
-    id: 6,
-    title: "Festivals and Fairs",
-    desc: "Lorem ipsum dolor sit amet, consec tetur adipi scing elit. Sed lacinia mollis magna eu condi mentum. Proin justo diam, tristique vitae viverra eu, facilisis a ex. Aliquam.",
-  },
+    desc: "Our charity event expertise ensures every detail resonates with your mission, crafting impactful gatherings that drive positive change.",
+  }
 ];

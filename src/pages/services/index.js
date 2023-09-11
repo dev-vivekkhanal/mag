@@ -4,6 +4,7 @@ import React from "react";
 import servicesBanner from "../../assets/services/servicesBanner.webp";
 import FirstSection from "@/components/services/FirstSection";
 import SecondSection from "@/components/services/SecondSection";
+import ThirdSection from "@/components/services/ThirdSection";
 
 const Services = () => {
   return (
@@ -13,6 +14,7 @@ const Services = () => {
 
         <FirstSection />
         <SecondSection />
+        <ThirdSection/>
       </div>
     </Layout>
   );
