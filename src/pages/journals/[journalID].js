@@ -1,3 +1,4 @@
+'use client'
 import BigBanner from "@/components/global/BigBanner";
 import { useRouter } from "next/router";
 import React from "react";
