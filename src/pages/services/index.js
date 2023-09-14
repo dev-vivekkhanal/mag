@@ -11,10 +11,9 @@ const Services = () => {
     <Layout>
       <div>
         <Banner pageName="Our Services" img={servicesBanner} />
-
         <FirstSection />
         <SecondSection />
-        <ThirdSection/>
+        <ThirdSection />
       </div>
     </Layout>
   );
