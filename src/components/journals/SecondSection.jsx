@@ -9,7 +9,7 @@ const SecondSection = () => {
       {mainEvents?.map((data) => {
         return (
           <div key={data?.id} className="flex-auto  ">
-            <Link href="/journals/[pid]" as={`/journals/${data?.id}`}>
+            <Link href={`/journals/${data?.id}`}>
               <Image
                 src={data?.image}
                 alt={data?.title}
