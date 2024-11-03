@@ -9,7 +9,11 @@ import Link from "next/link";
 const ThirdSection = () => {
   return (
     <div className=" relative">
-      <Image src={waves} fill className="w-full opacity-30 hidden lg:block" />
+      <Image
+        src={waves}
+        fill
+        className="w-full opacity-30 hidden lg:block -z-10"
+      />
       <section className="flex flex-col lg:flex-row justify-between gap-10 py-20 pt-32">
         <div className="flex-1">
           <Image
@@ -24,11 +28,11 @@ const ThirdSection = () => {
             <Image src={ring} alt="rings" />
           </div>
           <h1 className="font-lora  text-xl md:text-3xl font-medium  w-[80%] mx-auto text-center">
-            Ram & Janani
+            Geetha & Sunil
           </h1>
 
           <p className="text-[#4F4F4F] text-lg md:text-xl w-[80%] mx-auto text-center">
-            The phrase &apos;together forever`&apos; feels just right, as it
+            The phrase &apos;together forever&apos; feels just right, as it
             encapsulated not only our cherished memories but also the blend of
             scenic vistas and cultural motifs that enhanced the charm of our
             beautifully crafted day.

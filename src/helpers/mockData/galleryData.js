@@ -26,6 +26,8 @@ import galleryImage25 from "../../assets/home/25c.png";
 import galleryImage26 from "../../assets/home/26c.png";
 import galleryImage27 from "../../assets/home/27c.png";
 import galleryImage28 from "../../assets/home/28c.png";
+import galleryImage29 from "../../assets/home/29c.png";
+import galleryImage30 from "../../assets/home/30c.png";
 
 export const galleryData = [
   {
@@ -76,10 +78,6 @@ export const galleryData = [
     alt: "galleryImage9",
   },
   {
-    text: "lorem ipsum",
-    type: "text",
-  },
-  {
     src: galleryImage10,
     type: "image",
     alt: "galleryImage10",
@@ -106,12 +104,6 @@ export const galleryData = [
     type: "image",
     alt: "galleryImage14",
   },
-
-  {
-    text: "lorem ipsum",
-    type: "text",
-  },
-
   {
     src: galleryImage15,
     type: "image",
@@ -169,10 +161,10 @@ export const galleryData = [
     type: "image",
     alt: "galleryImage25",
   },
-  {
-    text: "lorem ipsum",
-    type: "text",
-  },
+  // {
+  //   text: "lorem ipsum",
+  //   type: "text",
+  // },
   {
     src: galleryImage26,
     type: "image",
@@ -183,9 +175,19 @@ export const galleryData = [
     type: "image",
     alt: "galleryImage27",
   },
-  // {
-  //   src: galleryImage28,
-  //   type: "image",
-  //   alt: "galleryImage28",
-  // },
+  {
+    src: galleryImage28,
+    type: "image",
+    alt: "galleryImage28",
+  },
+  {
+    src: galleryImage29,
+    type: "image",
+    alt: "galleryImage29",
+  },
+  {
+    src: galleryImage30,
+    type: "image",
+    alt: "galleryImage30",
+  },
 ];

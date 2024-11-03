@@ -12,27 +12,19 @@ import { useEffect } from "react";
 
 const Header = () => {
   const location = useRouter();
-  const whiteLinks = ["/", "/services"];
-
-  useEffect(() => {
-    console.log("location:", location?.route);
-    console.log(
-      "whiteLinks?.includes(location?.route):",
-      whiteLinks?.includes(location?.route)
-    );
-  }, [location]);
+  // const whiteLinks = ["/", "/services"];
 
   return (
     <header className="pt-5 z-10  absolute top-0  left-0 right-0 ">
-      <div className="flex justify-between w-[90%] mx-auto py-5  items-center">
+      <div className="flex justify-between w-[90%] mx-auto p-3 px-10 rounded-lg  items-center bg-white">
         {/* logo */}
-        <div className=" flex-1 ">
+        <div className=" flex-1 md:flex-[0.2]">
           <Link href="/">
             <Image src={logo} alt="logo" className="w-[5rem]" />
           </Link>
         </div>
         {/* nav links */}
-        <nav className=" justify-between items-center gap-5 flex-1  hidden md:flex">
+        <nav className=" justify-between items-center gap-5 flex-[0.8]  hidden md:flex  w-full">
           {headerData?.map((header_links) => {
             return (
               <Link
@@ -40,13 +32,9 @@ const Header = () => {
                 key={header_links.title}
                 className={` ${
                   location?.route === header_links.link
-                    ? `border-b-accent_color ${
-                        whiteLinks?.includes(location?.route)
-                          ? "border-b-[#C7C7C7] text-[#C7C7C7]"
-                          : "text-accent_color"
-                      } `
-                    : "border-b-transparent text-[#4F4F4F]"
-                }  p-2  border-b-2 border-b-accent_color `}
+                    ? `border-b-accent_color`
+                    : "border-b-transparent text-[#737373]"
+                }  p-2  border-b-2 `}
               >
                 <span className=" font-poppins text-xl">
                   {header_links.title}
@@ -56,9 +44,9 @@ const Header = () => {
           })}
         </nav>
         {/* search and menu */}
-        <div className=" flex-1 flex items-center justify-end gap-5">
+        <div className=" flex-1 flex items-center justify-end gap-5 md:hidden">
           {/* menu */}
-          <div className="md:hidden">
+          <div className="">
             <Image src={menu_icon} alt="menu" className="w-10" />
           </div>
         </div>

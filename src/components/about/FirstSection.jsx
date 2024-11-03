@@ -9,7 +9,7 @@ const FirstSection = () => {
       <div
         className={`flex flex-col lg:flex-row gap-5 lg:px-[2.5%] xl:px-[5%]  mx-auto justify-between bg-bottom py-32 lg:bg-[url('/_next/static/media/bg-lines.0efc976a.svg')] bg-no-repeat bg-cover `}
       >
-        <div className="flex-none hidden lg:block">
+        <div className="flex-none hidden lg:block shrink-0">
           <Image src={left_img} alt="" className="rounded-tl-[50rem]"></Image>
         </div>
 
@@ -33,8 +33,11 @@ const FirstSection = () => {
             </p>
           </div>
         </div>
+        <div className="flex-none hidden lg:block shrink-0">
+          <Image src={right_img} alt="" className="rounded-tr-[50rem]"></Image>
+        </div>
 
-        <div className="flex-none flex justify-between align-bottom gap-5 ">
+        <div className="flex justify-between align-bottom gap-5  lg:hidden">
           <Image
             src={right_img}
             alt=""
@@ -43,7 +46,7 @@ const FirstSection = () => {
           <Image
             src={left_img}
             alt=""
-            className="rounded-tl-[50rem] w-full min-w-[50px] lg:hidden block"
+            className="rounded-tl-[50rem] w-full min-w-[50px] block"
           ></Image>
         </div>
       </div>

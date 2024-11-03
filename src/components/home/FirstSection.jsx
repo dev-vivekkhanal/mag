@@ -5,10 +5,10 @@ import { AnimatePresence, motion } from "framer-motion";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 // assets
-import bg1 from "../../assets/home/bg-1.svg";
-import bg2 from "../../assets/home/bg-2.svg";
-import bg3 from "../../assets/home/bg-3.svg";
-import bg4 from "../../assets/home/bg-4.svg";
+import bg1 from "../../assets/home/bg-1.webp";
+import bg2 from "../../assets/home/bg-2.webp";
+import bg3 from "../../assets/home/bg-3.webp";
+import bg4 from "../../assets/home/bg-4.webp";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -54,7 +54,7 @@ const FirstSection = () => {
           <div>
             {/* CTA */}
             <Link
-              href="/contact"
+              href="/services#contact"
               className="bg-accent_color px-16 py-4 text-white font-lora text-xl md:text-3xl mt-16 inline-block"
             >
               Contact Us

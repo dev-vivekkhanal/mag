@@ -2,7 +2,7 @@ import React from "react";
 
 const ThirdSection = () => {
   return (
-    <section className="py-32 font-playfair">
+    <section id="contact" className="py-32 font-playfair">
       <div className="flex flex-col lg:flex-row gap-10 w-[90%] md:w-[80%] mx-auto grid-flow-dense">
         <div className="flex-1 flex flex-col justify-between gap-5">
           <div>
@@ -13,9 +13,11 @@ const ThirdSection = () => {
           </div>
 
           <p className="font-lora md:text-xl ">
-            Aliquam pharetra mauris ut sem pretium. Proin iaculis velit ac diam
-            feugiat, quis ultrices sem tristique. Donec pellentesque eros quis
-            pharetra.
+            We&apos;d love to hear from you! Whether you have questions,
+            feedback, or inquiries about our flight passes, our dedicated team
+            is here to assist you. Your satisfaction is our top priority, and
+            we&apos;re committed to providing you with the best support
+            possible.
           </p>
 
           <div>
@@ -23,9 +25,13 @@ const ThirdSection = () => {
               Bengaluru
             </h2>
             <ul className="font-lora md:text-xl list-disc pl-5">
-              <li>301, 3rd Floor, Anjanadhri Pavithra</li>
-              <li>example@mail.com</li>
-              <li>+1 234 567 890</li>
+              <li>
+                301, 3rd Floor ,Anjanadhri Pavithra ,Kashinagar, Yelachenahalli,
+                Bengaluru, Karnataka 560078
+              </li>
+              <li>magproductionsinfo@gmail.com</li>
+              <li>+91 9845253985</li>
+              <li>+91 9035993712</li>
             </ul>
           </div>
         </div>

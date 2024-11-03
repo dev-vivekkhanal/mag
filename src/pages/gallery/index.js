@@ -5,6 +5,7 @@ import galleryBanner from "../../assets/gallery/galleryBanner.webp";
 import { galleryPageData } from "@/helpers/mockData/galleryPageData";
 import Image from "next/image";
 import YouTube from "react-youtube";
+import galleryImage from "@/assets/gallery/gallery.webp";
 
 const Gallery = () => {
   const opts = {
@@ -15,7 +16,14 @@ const Gallery = () => {
     <Layout>
       <div>
         <Banner pageName="Gallery" img={galleryBanner} />
-        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 my-5">
+        <div>
+          <Image
+            src={galleryImage}
+            alt="gallery"
+            className=" h-full object-cover  w-full my-4"
+          ></Image>
+        </div>
+        {/* <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 my-5">
           {galleryPageData?.map((data, index) => {
             return (
               <div
@@ -37,7 +45,7 @@ const Gallery = () => {
         </div>
         <div className="w-full mb-5">
           <YouTube videoId={"MppKFZTQGIU"} opts={opts} />
-        </div>
+        </div> */}
         {/* <div className="grid grid-cols-3 md:grid-cols-4 gap-5 my-5">
           {galleryPageData?.map((data, index) => {
             if (data?.type === "youtube")

@@ -11,7 +11,7 @@ const Banner = (props) => {
         alt="bg image"
         priority
       />
-      <h1 className="text-5xl text-center py-32 pb-44 pt-64 font-semibold font-playfair">
+      <h1 className="text-5xl text-center py-32 pb-44 pt-64 font-semibold font-playfair text-[#FFFFFF] drop-shadow-2xl">
         {props?.pageName}
       </h1>
     </div>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import l_img from "../../assets/home/img1.png";
+import l_img from "../../assets/home/left-img1.webp";
 
 const SecondSection = () => {
   return (
