@@ -15,6 +15,25 @@ module.exports = {
       colors: {
         accent_color: "#0B041B",
       },
+      keyframes: {
+        "draw-check": {
+          "0%": { strokeDasharray: "0,100" },
+          "100%": { strokeDasharray: "100,100" },
+        },
+        "draw-x": {
+          "0%": { strokeDasharray: "0,100" },
+          "100%": { strokeDasharray: "100,100" },
+        },
+        "fade-in": {
+          "0%": { opacity: "0", transform: "translateY(10px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+      },
+      animation: {
+        "draw-check": "draw-check 0.5s ease forwards",
+        "draw-x": "draw-x 0.5s ease forwards",
+        "fade-in": "fade-in 0.5s ease forwards",
+      },
     },
   },
   plugins: [],

@@ -14,10 +14,15 @@ const FirstSection = () => {
   return (
     <div className=" py-32 relative">
       <Image src={bg_art} fill className="w-full opacity-30 hidden lg:block" />
-      <div className="grid grid-cols-1 lg:grid-cols-2 place-content-center gap-20 w-[80%] mx-auto ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 w-[80%] mx-auto ">
         {typesOfServices?.map((data, index) => {
           return (
-            <div key={data?.id} className="p-10 ">
+            <div
+              key={data?.id}
+              className={`p-10 ${
+                index + 1 === typesOfServices?.length ? "lg:col-span-2" : ""
+              }`}
+            >
               <Image src={imgArr[index]} alt=".." className="mx-auto" />
               <h1 className=" font-lora text-xl md:text-3xl font-medium mb-10 text-accent_color text-center">
                 {data?.title}

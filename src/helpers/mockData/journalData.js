@@ -31,7 +31,7 @@ export const mainEvents = [
     id: 2,
     coverImg: coverImg2,
     contentImage: contentImg2,
-    title: "Rakesh & Sangeetha – Love in Mysore",
+    title: "Geetha Sunil - Wedding Photography",
     image: img2,
   },
   {
@@ -52,7 +52,7 @@ export const mainEvents = [
     id: 5,
     coverImg: coverImg5,
     contentImage: contentImg5,
-    title: "Geetha Sunil - Wedding Photography",
+    title: "Rakesh & Sangeetha – Love in Mysore",
     image: img5,
   },
   {
