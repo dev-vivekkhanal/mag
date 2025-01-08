@@ -22,7 +22,7 @@ const FirstSection = () => {
       return (
         <div
           key={bgIndex}
-          className="h-screen w-full relative bg-black bg-opacity-30"
+          className="h-[50vh] md:h-screen w-full relative bg-black bg-opacity-30"
         >
           <Image
             fill
@@ -40,8 +40,8 @@ const FirstSection = () => {
 
   return (
     <div className="relative">
-      <div className=" min-h-[100vh] relative font-lora text-center text-white ">
-        <div className="h-screen flex flex-col justify-around py-10 pt-32">
+      <div className="h-[50vh] md:min-h-screen relative font-lora text-center text-white ">
+        <div className="h-[50vh] md:h-screen flex flex-col justify-around py-10 pt-32">
           <div>
             <h1 className="text-3xl font-medium mb-10">
               Capturing You, As You Truly Are

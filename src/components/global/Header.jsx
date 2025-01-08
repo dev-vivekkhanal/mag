@@ -16,7 +16,7 @@ const Header = () => {
   const [toggleSidebar, setToggleSidebar] = useState(false);
 
   return (
-    <header className="pt-5 z-10  absolute top-0  left-0 right-0 ">
+    <header className="pt-5 z-10  fixed top-0  left-0 right-0 ">
       <div className="bg-white w-[90%] mx-auto p-3 px-10 rounded-lg">
         <div className="flex justify-between items-center">
           {/* logo */}

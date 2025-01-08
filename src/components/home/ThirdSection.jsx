@@ -14,7 +14,7 @@ const ThirdSection = () => {
         fill
         className="w-full opacity-30 hidden lg:block -z-10"
       />
-      <section className="flex flex-col lg:flex-row justify-between gap-10 py-20 pt-32">
+      <section className="flex flex-col lg:flex-row justify-between gap-10 pb-10 md:py-20 md:pt-32">
         <div className="flex-1">
           <Image
             src={left_img}
@@ -27,11 +27,11 @@ const ThirdSection = () => {
           <div>
             <Image src={ring} alt="rings" />
           </div>
-          <h1 className="font-lora  text-xl md:text-3xl font-medium  w-[80%] mx-auto text-center">
+          <h1 className="font-lora text-3xl font-medium  w-[80%] mx-auto text-center">
             Geetha & Sunil
           </h1>
 
-          <p className="text-[#4F4F4F] text-lg md:text-xl w-[80%] mx-auto text-center">
+          <p className="text-[#4F4F4F] text-lg md:text-xl px-8 md:w-[80%] mx-auto text-center">
             The phrase &apos;together forever&apos; feels just right, as it
             encapsulated not only our cherished memories but also the blend of
             scenic vistas and cultural motifs that enhanced the charm of our
@@ -54,7 +54,7 @@ const ThirdSection = () => {
           />
         </div>
       </section>
-      <p className="font-lora font-medium  text-xl md:text-3xl w-[60%] mx-auto text-center py-32">
+      <p className="font-lora font-medium  text-xl md:text-3xl w-[90%] md:w-[60%] mx-auto text-center pb-8 md:py-32">
         We initiate brand action. Our efforts transition from single moments to
         impactful movements, effectively engaging your audience and propelling
         your business forward
