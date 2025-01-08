@@ -45,7 +45,7 @@ const SecondSection = () => {
             {/* CTA */}
             <Link
               href="/about"
-              className="bg-accent_color px-16 py-4 text-white font-lora text-xl md:text-3xl md:mt-16 block w-fit mx-auto md:mr-auto"
+              className="bg-accent_color px-16 py-4 text-white font-lora text-xl md:text-3xl mb-10 md:mb-0 md:mt-16 block w-fit mx-auto md:mr-auto"
             >
               About Us
             </Link>

@@ -8,6 +8,7 @@ import { headerData } from "@/helpers/mockData/headerMock";
 import logo from "../../assets/global/company_logo.svg";
 import search_icon from "../../assets/global/search.svg";
 import menu_icon from "../../assets/global/menu.svg";
+import goldLogo from "../../assets/global/gold_logo.png";
 import { useEffect, useState } from "react";
 
 const Header = () => {
@@ -17,12 +18,16 @@ const Header = () => {
 
   return (
     <header className="pt-5 z-10  fixed top-0  left-0 right-0 ">
-      <div className="bg-white w-[90%] mx-auto p-3 px-10 rounded-lg">
+      <div
+        className={`${
+          toggleSidebar ? "bg-opacity-75" : "bg-opacity-20"
+        } bg-white  w-[90%] mx-auto p-3 px-10 rounded-lg shadow-lg backdrop-blur-md border border-white border-opacity-30`}
+      >
         <div className="flex justify-between items-center">
           {/* logo */}
           <div className=" flex-1 md:flex-[0.2]">
             <Link href="/">
-              <Image src={logo} alt="logo" className="w-[5rem]" />
+              <Image src={goldLogo} alt="logo" className="w-[5rem]" />
             </Link>
           </div>
           {/* nav links */}
