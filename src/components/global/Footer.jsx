@@ -18,9 +18,13 @@ const Footer = () => {
           {/* <a href="/"> */}
           <Image src={twitter} alt="twitter" className="" />
           {/* </a> */}
-          {/* <a href="/"> */}
-          <Image src={fb} alt="facebook" className="" />
-          {/* </a> */}
+          <a
+            href="https://www.facebook.com/profile.php?id=61561690115148&name=xhp_nt__fb__action__open_user"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Image src={fb} alt="facebook" className="" />
+          </a>
           <a
             href="https://www.instagram.com/_magproductions_?igsh=aXp6cHV3ZjNnZ3Qy"
             target="_blank"
